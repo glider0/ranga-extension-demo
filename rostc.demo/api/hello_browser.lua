@@ -12,6 +12,17 @@ print([[
 <body>
 <h1>Hello, world</h1>
 A demo do not use Ranga proto
+<pre>
+]])
+
+ranga.luaload("ranga.ext.base/utils/cgiutils.lua")
+ranga.luaload("rostc.demo/lib/table.lua")
+
+query = cgiutils.parsequery(os.getenv('QUERY_STRING'))
+printTable(query)
+
+print([[
+</pre>
 </body>
 </html>
 ]])
