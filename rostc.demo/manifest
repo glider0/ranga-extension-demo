@@ -2,5 +2,5 @@
 %api: ranga:1
 %magic: ABI_NSWA_LUA51;ABI_NSWA_LUAJIT;
 %name: A DEMO of Ranga extensions.
-%ver: 0.1
+%ver: 0.2
 %author: Ranga Open-Source Technology Center
