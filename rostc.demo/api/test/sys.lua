@@ -1,10 +1,5 @@
 ranga.luaload("ranga.ext.base/utils/sys.lua")
-
-local printTable = function(table)
-	for k, v in pairs(table) do
-		print(k .. ": " .. v)
-	end
-end
+ranga.luaload("rostc.demo/lib/table.lua")
 
 ranga.proto.prepare()
 ranga.proto.header("code", "0")
