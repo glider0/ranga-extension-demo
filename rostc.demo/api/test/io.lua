@@ -13,4 +13,4 @@ print("The content of this file, and the content write to a tmp file")
 print(blob)
 
 tmp:close()
-ranga.tmpfree(tmp)
+ranga.tmpfree("rostc.demo.tmp1")
